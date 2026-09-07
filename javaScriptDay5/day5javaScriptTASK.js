@@ -7,14 +7,14 @@
             --It has global scope
             --it can be re initialized,re used, redeclared,re assigned
 
-        let ---This keyword can be used when we want to update but not going to declare in future.
+        let ---This keyword can be used when we want to update but not going to re declare in future.
             ---It has block scope
-            ---it can be initialized,re-initializes,reused,re assigned
+            ---it can be initialized,re-initialized,reused,re-assigned
             ---it cannot be re-declared
-        const ---This keyword can be used when there will be no changing and no re declaring the data in future.
+        const ---This keyword can be used when there will be no changing and no re-declaring of data in future.
                 ---it need to initialize while declaring it.
                 ---It has block scope
-                ---it cannot be initialized,re-initializes,reused,re assigned  once declared and initializes
+                ---it cannot be initialized,re-initialized,re-assigned  once declared and initialized
              ---it cannot be re-declared and re initialized.
     */
 
