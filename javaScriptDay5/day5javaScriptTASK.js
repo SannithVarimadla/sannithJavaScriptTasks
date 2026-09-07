@@ -11,11 +11,11 @@
             ---It has block scope
             ---it can be initialized,re-initializes,reused,re assigned
             ---it cannot be re-declared
-        const ---This keyword can be used when there will be no changing and no re declaring the data.
+        const ---This keyword can be used when there will be no changing and no re declaring the data in future.
                 ---it need to initialize while declaring it.
                 ---It has block scope
                 ---it cannot be initialized,re-initializes,reused,re assigned  once declared and initializes
-             ---it cannot be re-declared
+             ---it cannot be re-declared and re initialized.
     */
 
 //======================================================================================
@@ -46,7 +46,7 @@
 
         console.log(x, y, z);    //x=20   ..bec--it can re initialize/re assign
                                 //y=25   ...bec--it can re assign but not re declare
-                                //z=error  ...bec it cannoth re assign and re declare
+                                //z=error  ...bec it cannot re assign and re declare
 
 
 //======================================================================================*/
