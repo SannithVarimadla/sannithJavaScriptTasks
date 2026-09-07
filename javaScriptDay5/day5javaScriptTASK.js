@@ -102,7 +102,7 @@ Hoisting  ---  calling methods or functions after or before its declaration and 
 
     Null --------it defined that there is no value currently.
                 --but in future there may be some value for it.Null
-    undefined --------when a variable is unsigned it defined as undefined.
+    undefined --------when a variable is not initialized it defined as undefined.
                     --there is no value for the variable.
 
 
@@ -318,7 +318,7 @@ console.log(Boolean("hello"));  //--true
 /*======================Q17: What is NaN? Give an example.================================================================
 
                     NaN  ---Not a Number     
-                        ---it will be printed when a result cannot produce a valid intefer type number
+                        ---it will be printed when a result cannot produce a valid integer type number
 
                     console.log(Number("hello"));  //----NaN  ,hello is not a number type.
 
