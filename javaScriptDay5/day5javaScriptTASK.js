@@ -14,7 +14,7 @@
         const ---This keyword can be used when there will be no changing and no re declaring the data.
                 ---it need to initialize while declaring it.
                 ---It has block scope
-                ---it can be initialized,re-initializes,reused,re assigned
+                ---it cannot be initialized,re-initializes,reused,re assigned  once declared and initializes
              ---it cannot be re-declared
     */
 
