@@ -478,7 +478,7 @@ splice --- it used to remove ,add , modify the elements.
 
             let aa = [10, 20, 30, 40];
 
-            let b = aa.splice(1,3);   remove elememts before index 0 and remove 3 elements after the index 1 element.
+            let b = aa.splice(1,3);  );   remove elememts before index 1 and keep 3 elements after the index 1 element(along with counting index 1 element).and remove all
 
             console.log(b);
             console.log(aa);
