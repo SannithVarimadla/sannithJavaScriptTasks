@@ -99,46 +99,46 @@ let products = [
 //Get products above ₹2,000
 
     let prod = products.filter( ( currentElement , indexNum ,totalArray )=>{
-                                                            return currentElement.price > 2000;
-                                                                    })
+                                     return currentElement.price > 2000;
+                                });
 
                     console.log(prod);
 
 // Get only electronics(above 2000)
     let pr = products.filter( ( currentElement , indexNum ,totalArray )=>{
-                                                            return (currentElement.price > 2000 && currentElement.category=="electronics");
-                                                                    })
+                              return (currentElement.price > 2000 && currentElement.category=="electronics");
+                              });
 
                     console.log(pr);
 
 // Find the first product below ₹1,000
 
     let firstProduct = products.find( (currentElement , indexNum , totalArray)=>{
-                                                    return currentElement.price < 1000;
-                                                                })
+                                      return currentElement.price < 1000;
+                                        });
 
                     console.log(firstProduct);
 
 // Calculate total price of all products
 
     let totalPrice = products.reduce( (accumulator , currentElement , indexNum , totalArray)=>{
-                                                    return accumulator + currentElement.price ;
-                                                        },0);
+                                     return accumulator + currentElement.price ;
+                                      },0);
 
                     console.log(totalPrice);
 
 // Check whether any product costs more than ₹50,000
 
     let moreThan50k = products.some( ( currentElement , indexNum , totalArray)=>{
-                                            return currentElement.price > 50000;
-                                                        });
+                                      return currentElement.price > 50000;
+                                    });
 
                     console.log("product price more than 50000 : "+moreThan50k);
 
 // Check whether every product has a price above ₹500
     let everyProduct = products.every( ( currentElement , indexNum , totalArray)=>{
-                                            return currentElement.price > 500;
-                                                        });
+                                         return currentElement.price > 500;
+                                         });
 
                     console.log("every product has price morethan 500 : "+everyProduct);
 
@@ -199,7 +199,7 @@ let employees =[
 // Display employees earning above ₹40,000
     let earningsAb40k = employees.filter((currentElement) => {
                      return currentElement.salary > 40000;
-                                });
+                           });
 
         console.log(earningsAb40k);
 
@@ -207,7 +207,7 @@ let employees =[
 
         let findId = employees.find((currentElement )=>{
                             return currentElement.id=103;
-                                    });
+                              });
                     console.log(findId);
 
 // Calculate total salary
@@ -225,9 +225,8 @@ let employees =[
                                             {
                                                 sal = currentElement.salary;
                                               highestName= currentElement.name;
-
                                             }
-                                                            });
+                                              });
                             console.log(highestName  +"  "+sal);
 
 // Sort employees from highest salary to lowest
@@ -274,7 +273,6 @@ let cart = [
   let totalValue = cart.reduce((accumulator ,currentElement , indexNum)=>{
                                  return accumulator+ ((currentElement.price) * (currentElement.quantity));
 
-                                  
                                         },0);
 
                             console.log(totalValue);
